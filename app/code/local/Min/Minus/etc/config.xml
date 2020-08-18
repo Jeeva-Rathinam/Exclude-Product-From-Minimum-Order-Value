@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Min_Minus>
+            <version>1.0.0</version>
+        </Min_Minus>
+    </modules>
+    <global>
+        <helpers>
+            <minus>
+                <class>Min_Minus_Helper</class>
+            </minus>
+        </helpers>
+        <models>
+          <sales>
+              <rewrite>
+                  <quote>Min_Minus_Model_Quote</quote>
+                  <quote_address>Min_Minus_Model_Quote_Address</quote_address>
+              </rewrite>
+          </sales>
+       </models>
+    </global>
+</config>
